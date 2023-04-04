@@ -1,25 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import Balance from './components/Balance';
+import Spending from './components/SpendingCard';
 
 function App() {
+  const spendings = json;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className="App">
+        <div className="balance-spending-container">
+          <Balance />
+          <Spending />
+        </div>
+      </div>
+    </main>
   );
 }
 
 export default App;
+
+const json = [
+  {
+    "day": "mon",
+    "amount": 17.45
+  },
+  {
+    "day": "tue",
+    "amount": 34.91
+  },
+  {
+    "day": "wed",
+    "amount": 52.36
+  },
+  {
+    "day": "thu",
+    "amount": 31.07
+  },
+  {
+    "day": "fri",
+    "amount": 23.39
+  },
+  {
+    "day": "sat",
+    "amount": 43.28
+  },
+  {
+    "day": "sun",
+    "amount": 25.48
+  }
+];

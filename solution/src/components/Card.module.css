@@ -1,0 +1,8 @@
+.card {
+    background-color: var(--verypaleorange);
+    max-width: 375px;
+    border-radius: 15px;
+    color: var(--darkbrown);
+    text-align: center;
+    margin: 1rem;
+}

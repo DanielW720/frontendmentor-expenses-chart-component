@@ -1,0 +1,14 @@
+.balance-card {
+    background-color: var(--softred);
+    display: flex;
+    justify-content: space-between;
+    color: var(--verypaleorange);
+}
+
+.balance-card div {
+    margin-left: 1rem;
+}
+
+.balance-card img {
+    margin-right: 1rem;
+}
