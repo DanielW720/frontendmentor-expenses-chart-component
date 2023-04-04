@@ -1,0 +1,56 @@
+article {
+    padding: 0.5rem 1.5rem;
+}
+
+article h1 {
+    color: var(--darkbrown);
+    font-size: 25px;
+    margin: 1.5rem 0 0 0;
+    text-align: start;
+}
+
+hr {
+    border: 1px solid var(--cream);
+}
+
+.month-specifics {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0;
+}
+
+.totals {
+    text-align: start;
+    margin-right: 3rem;
+}
+
+.totals p:first-of-type {
+    color: var(--mediumbrown);
+    margin-bottom: 0.5rem;
+}
+
+.totals p:last-of-type {
+    color: var(--darkbrown);
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.percentage-difference {
+    text-align: end;
+    margin-left: 3rem;
+}
+
+.percentage-difference p:first-of-type {
+    color: var(--darkbrown);
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+}
+
+.percentage-difference p:last-of-type {
+    color: var(--mediumbrown);
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}

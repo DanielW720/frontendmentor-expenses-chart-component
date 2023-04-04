@@ -1,0 +1,23 @@
+.bars-container {
+    width: 100%;
+    display: flex;
+}
+
+.bar-and-day {
+    color: var(--mediumbrown);
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.day {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bar {
+    width: 2.3rem;
+    border-radius: 5px;
+}

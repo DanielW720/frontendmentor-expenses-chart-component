@@ -1,6 +1,5 @@
 .card {
-    background-color: var(--verypaleorange);
-    max-width: 375px;
+    background-color: white;
     border-radius: 15px;
     color: var(--darkbrown);
     text-align: center;

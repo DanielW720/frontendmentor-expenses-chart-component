@@ -2,12 +2,12 @@ import Card from "./Card"
 import styles from './Balance.module.css';
 import circles from '../images/logo.svg';
 
-const Balance = () => {
+const Balance = ({ balance }) => {
     return (
         <Card className={styles['balance-card']}>
             <div>
                 <p>My balance</p>
-                <p>$921.48</p>
+                <p>${balance}</p>
             </div>
             <img src={circles} alt="circles" />
         </Card>

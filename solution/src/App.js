@@ -1,16 +1,16 @@
 import './App.css';
 import Balance from './components/Balance';
-import Spending from './components/SpendingCard';
+import SpendingCard from './components/SpendingCard';
 
 function App() {
-  const spendings = json;
+  const balance = 921.48;
 
   return (
     <main>
       <div className="App">
         <div className="balance-spending-container">
-          <Balance />
-          <Spending />
+          <Balance balance={balance} />
+          <SpendingCard weeksSpending={json} />
         </div>
       </div>
     </main>

@@ -6,9 +6,23 @@
 }
 
 .balance-card div {
-    margin-left: 1rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.balance-card div p:first-of-type {
+    margin-bottom: 4px;
+}
+
+.balance-card div p:last-of-type {
+    margin-top: 4px;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .balance-card img {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
