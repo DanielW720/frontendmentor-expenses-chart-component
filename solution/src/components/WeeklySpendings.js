@@ -21,6 +21,9 @@ const WeeklySpendings = ({ weeksSpending, total }) => {
 
                     return (
                         <div className={styles['bar-and-day']} key={idx}>
+                            <div className={styles['todays-spending']}>
+                                ${e.amount}
+                            </div>
                             <div
                                 className={styles.bar}
                                 style={
