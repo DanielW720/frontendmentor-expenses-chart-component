@@ -13,11 +13,11 @@ Users should be able to:
 
 ### Design
 
-<img src="design/mobile-design.jpg" width=70% >
+<img src="design/mobile-design.jpg" width=50% >
 
 ### Screenshot
 
-<img src="screenshot.png" width=70% >
+<img src="screenshot.png" width=50% >
 
 ### Built with
 
@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](./solution/)
-- Live Site URL: [Live site](https://spectacular-sprinkles-a2879a.netlify.app/)
+- Live Site URL: [Live site](https://peppy-fenglisu-41377a.netlify.app/)
 
 ## Author
 
